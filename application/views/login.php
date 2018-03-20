@@ -10,7 +10,7 @@
 							</div>
 						</div>
 						<div class="col-lg-5">
-							<form id="myForm" action="<?php echo site_url('login/submit');?>" method="post" class="contact-form text-right">
+							<form id="myForm" action="<?php echo site_url('login/proses');?>" method="post" class="contact-form text-right">
 								<div class="row">
 									<div class="col-lg-6">
 										<div class="input-group-icon mt-10">

@@ -3,9 +3,9 @@
 <?php echo $__header; ?>
 <body>
 <?php //echo $__header; ?>
-<?php $typeuser = $this->session->userdata('typeuser'); ?>
+<?php $typeuser = $this->session->userdata('login'); ?>
 <?php
-						if ($typeuser=='1')
+						if ($typeuser=='admin')
 								{echo $__menuadmin;}
 						elseif ($typeuser == '2')
                         {echo $__menuuser;}
