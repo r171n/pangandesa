@@ -14,6 +14,6 @@ class Admin extends CI_Controller {
 	}
 	public function index()
 	{
-		$this->templateback->render('back/welcome_message');
+		$this->templateback->render('back/admin/welcome_message');
 	}
 }
